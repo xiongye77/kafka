@@ -1,12 +1,19 @@
 # kafka
 
 Amazon RDS for PostgreSQL instance (data source);
+
 Amazon S3 bucket (data sink);
+
 Amazon MSK cluster;
+
 Amazon EKS cluster;
+
 Connectivity between the Amazon RDS instance and Amazon MSK cluster;
+
 Connectivity between the Amazon EKS cluster and Amazon MSK cluster;
+
 Ensure the Amazon MSK Configuration has auto.create.topics.enable=true. This setting is false by default;
+
 IAM Role associated with Kubernetes service account (known as IRSA) that will allow access from EKS to MSK and S3
 
 Kafka Connect is a tool for scalably and reliably streaming data between Apache Kafka and other systems. It makes it simple to quickly define connectors that move large collections of data into and out of Kafka. Kafka Connect can ingest entire databases or collect metrics from all your application servers into Kafka topics, making the data available for stream processing with low latency. 
