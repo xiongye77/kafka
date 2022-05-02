@@ -7,4 +7,6 @@ Kafka Connect is a tool for scalably and reliably streaming data between Apache 
 ![image](https://user-images.githubusercontent.com/36766101/166188243-cc326424-3e70-406e-9647-caee9d41b4b7.png)
 
 Confluent’s Kafka Connect JDBC Source connector imports data from any relational database with a JDBC driver into an Apache Kafka topic. The Kafka Connect JDBC Sink connector exports data from Kafka topics to any relational database with a JDBC driver.
+
+
 Confluent’s Kafka Connect Amazon S3 Sink connector exports data from Apache Kafka topics to S3 objects in either Avro, Parquet, JSON, or Raw Bytes.
