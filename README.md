@@ -28,6 +28,13 @@ This first Kafka Connect source connector uses Confluent’s Kafka Connect JDBC 
 Confluent’s Kafka Connect Amazon S3 Sink connector exports data from Apache Kafka topics to S3 objects in either Avro, Parquet, JSON, or Raw Bytes.
 This first Kafka Connect sink connector uses Confluent’s Kafka Connect Amazon S3 Sink connector (io.confluent.connect.s3.S3SinkConnector) to export data from Kafka topics to Amazon S3 objects in JSON format.
 
+
+![image](https://user-images.githubusercontent.com/36766101/171408182-593ab002-3e12-47d2-bf41-8e4d10801f62.png)
+![image](https://user-images.githubusercontent.com/36766101/171408271-ac961088-ef63-4e77-b9c5-be667ffd9fd4.png)
+![image](https://user-images.githubusercontent.com/36766101/171411155-64935646-7aec-4ae2-9ef2-0d0506591684.png)
+
+
+
 The entire contents of the three tables will be exported from RDS to Kafka by the source connector, then exported from Kafka to S3 by the sink connector.
 
 
