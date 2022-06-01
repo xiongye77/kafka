@@ -28,6 +28,7 @@ This first Kafka Connect source connector uses Confluent’s Kafka Connect JDBC 
 Confluent’s Kafka Connect Amazon S3 Sink connector exports data from Apache Kafka topics to S3 objects in either Avro, Parquet, JSON, or Raw Bytes.
 This first Kafka Connect sink connector uses Confluent’s Kafka Connect Amazon S3 Sink connector (io.confluent.connect.s3.S3SinkConnector) to export data from Kafka topics to Amazon S3 objects in JSON format.
 
+![image](https://user-images.githubusercontent.com/36766101/171516317-7c12c639-087f-4247-842d-8b605efe1c5e.png)
 
 ![image](https://user-images.githubusercontent.com/36766101/171408182-593ab002-3e12-47d2-bf41-8e4d10801f62.png)
 ![image](https://user-images.githubusercontent.com/36766101/171408271-ac961088-ef63-4e77-b9c5-be667ffd9fd4.png)
@@ -78,3 +79,10 @@ kubectl exec -it $KAFKA_CONTAINER -n kafka -- bash
 
 export ZOOKPR=$(  aws ssm get-parameter --name /msk/scram/zookeeper     --query 'Parameter.Value' --output text)
 export BBROKERS=$(  aws ssm get-parameter --name /msk/scram/brokers     --query 'Parameter.Value' --output text)
+
+
+![image](https://user-images.githubusercontent.com/36766101/171518249-c16c8dd1-ddb8-473f-bafe-cf5b07b5bd1c.png)
+![image](https://user-images.githubusercontent.com/36766101/171518859-0d677f77-71a5-4a93-8b8d-e21b5a6da7e8.png)
+
+
+
