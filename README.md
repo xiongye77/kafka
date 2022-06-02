@@ -85,4 +85,8 @@ export BBROKERS=$(  aws ssm get-parameter --name /msk/scram/brokers     --query 
 ![image](https://user-images.githubusercontent.com/36766101/171518859-0d677f77-71a5-4a93-8b8d-e21b5a6da7e8.png)
 
 
+![image](https://user-images.githubusercontent.com/36766101/171525721-a771257c-6b20-4721-9b56-1ffc43b5c0d7.png)
+![image](https://user-images.githubusercontent.com/36766101/171527305-00200794-04de-42d7-a310-bf20739f75c8.png)
+![image](https://user-images.githubusercontent.com/36766101/171527682-dc9c63cf-acee-46a5-a87b-f32dc855b6ed.png)
+
 
