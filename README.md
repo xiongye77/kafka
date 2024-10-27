@@ -1,4 +1,6 @@
 # kafka
+<img width="1357" alt="image" src="https://github.com/user-attachments/assets/f0105804-5ef1-4d49-b6ce-4929fb50bdb1">
+<img width="1339" alt="image" src="https://github.com/user-attachments/assets/8035c857-6024-4fea-953a-f6424147e2d9">
 
 Amazon RDS for PostgreSQL instance (data source);
 
@@ -15,6 +17,8 @@ Connectivity between the Amazon EKS cluster and Amazon MSK cluster;
 Ensure the Amazon MSK Configuration has auto.create.topics.enable=true. This setting is false by default;
 
 IAM Role associated with Kubernetes service account (known as IRSA) that will allow access from EKS to MSK and S3
+
+
 
 Kafka Connect is a tool for scalably and reliably streaming data between Apache Kafka and other systems. It makes it simple to quickly define connectors that move large collections of data into and out of Kafka. Kafka Connect can ingest entire databases or collect metrics from all your application servers into Kafka topics, making the data available for stream processing with low latency. 
 ![image](https://user-images.githubusercontent.com/36766101/166189095-2d6ef7ef-b306-43f6-9216-a677347e8873.png)
@@ -89,4 +93,11 @@ export BBROKERS=$(  aws ssm get-parameter --name /msk/scram/brokers     --query 
 ![image](https://user-images.githubusercontent.com/36766101/171527305-00200794-04de-42d7-a310-bf20739f75c8.png)
 ![image](https://user-images.githubusercontent.com/36766101/171527682-dc9c63cf-acee-46a5-a87b-f32dc855b6ed.png)
 
+<img width="973" alt="image" src="https://github.com/user-attachments/assets/0339a2ca-6d1e-4f04-bf9e-11b5e066f162">
+
+<img width="1004" alt="image" src="https://github.com/user-attachments/assets/b8b448e7-b1d2-4ec0-a7b7-ac52350edc04">
+<img width="970" alt="image" src="https://github.com/user-attachments/assets/e53d399a-b4a7-4b72-83a3-0d496e2191f4">
+<img width="896" alt="image" src="https://github.com/user-attachments/assets/602b12cb-e663-47fe-8bed-1edb3a26f80a">
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/f8cfdb3e-a56d-4b8e-b9f9-218dd5bd6cb6">
+<img width="848" alt="image" src="https://github.com/user-attachments/assets/137eae6c-6c80-41e5-9650-f0e52d519271">
 
